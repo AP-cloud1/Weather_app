@@ -22,7 +22,7 @@ Welcome to the API-Based Weather App! This application provides real-time weathe
 
 <h2>Live Demo 🌐<h2><br>
 
-#Check out the live demo here: Live Demo<br>
+#Check out the live demo here: https://ap-cloud1.github.io/Weather_app/<br>
 
 <h2>Installation 🛠️<h2><br>
 
