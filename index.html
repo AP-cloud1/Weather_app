@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="search-box">
+            <input type="text" placeholder="Enter your city" class="search-input">
+            <button class="search-button">
+                <i class="fas fa-search"></i>
+            </button>
+        </div>
+        
+        <div class="weather-box">
+            <div class="weather-details hidden">
+                <div class="weather">
+                    <img src="" alt="weather icon" class="weather-icon">
+                    <h1 class="temp"></h1>
+                    <h2 class="city"></h2>
+                </div>
+                <div class="details">
+                    <div class="col">
+                        <i class="fas fa-temperature-high"></i>
+                        <div>
+                            <p class="feels-like"></p>
+                            <p>Feels Like</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <i class="fas fa-water"></i>
+                        <div>
+                            <p class="humidity"></p>
+                            <p>Humidity</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <i class="fas fa-wind"></i>
+                        <div>
+                            <p class="wind"></p>
+                            <p>Wind Speed</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="sun-times">
+                    <div class="col">
+                        <i class="fas fa-sun"></i>
+                        <div>
+                            <p class="sunrise-time"></p>
+                            <p>Sunrise</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <i class="fas fa-moon"></i>
+                        <div>
+                            <p class="sunset-time"></p>
+                            <p>Sunset</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="weather-animation">
+                <div class="cloud"></div>
+                <div class="cloud2"></div>
+            </div>
+        </div>
+        
+        <div class="forecast-container hidden">
+            <h3>5-Day Forecast</h3>
+            <!-- Forecast days will be inserted here by JavaScript -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
